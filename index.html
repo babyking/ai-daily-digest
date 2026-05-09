@@ -2,31 +2,286 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-    <article class="post">
-        <div class="post-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
-            {% if post.category %}
-                <span class="category-tag category-{{ post.category }}">{{ post.category | upcase }}</span>
-            {% endif %}
+<div class="filters">
+    <div class="filter-section">
+        <h3>📂 按分类筛选</h3>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="reddit">Reddit</button>
+            <button class="filter-btn" data-filter="twitter">Twitter</button>
+            <button class="filter-btn" data-filter="music">音乐技术</button>
         </div>
+    </div>
 
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-
-        <div class="post-content">
-            {{ post.excerpt }}
+    <div class="filter-section">
+        <h3>📅 按时间筛选</h3>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-time="all">全部</button>
+            <button class="filter-btn" data-time="7">最近7天</button>
+            <button class="filter-btn" data-time="30">最近30天</button>
         </div>
-    </article>
-{% endfor %}
-
-<div class="pagination">
-    {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="prev">← 上一页</a>
-    {% endif %}
-
-    <span>第 {{ paginator.page }} 页 / 共 {{ paginator.total_pages }} 页</span>
-
-    {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">下一页 →</a>
-    {% endif %}
+    </div>
 </div>
+
+<div class="stats">
+    <h3>📊 统计信息</h3>
+    <div class="stats-grid">
+        <div class="stat-item">
+            <span class="stat-number">{{ site.posts | size }}</span>
+            <span class="stat-label">总文章数</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">{% assign reddit_count = site.posts | where: "category", "reddit" | size %}{{ reddit_count }}</span>
+            <span class="stat-label">Reddit精选</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">{% assign twitter_count = site.posts | where: "category", "twitter" | size %}{{ twitter_count }}</span>
+            <span class="stat-label">Twitter精选</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">{% assign music_count = site.posts | where: "category", "music" | size %}{{ music_count }}</span>
+            <span class="stat-label">音乐技术</span>
+        </div>
+    </div>
+</div>
+
+<div class="posts-grid" id="posts-container">
+    {% for post in site.posts %}
+        <article class="post-card" data-category="{{ post.category }}" data-date="{{ post.date | date: '%Y-%m-%d' }}">
+            <div class="post-header">
+                <span class="category-tag category-{{ post.category }}">{{ post.category | upcase }}</span>
+                <time class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</time>
+            </div>
+
+            <h3 class="post-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+
+            <div class="post-excerpt">
+                {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </div>
+
+            <a href="{{ post.url }}" class="read-more">阅读全文 →</a>
+        </article>
+    {% endfor %}
+</div>
+
+<style>
+    .filters {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .filter-section {
+        margin-bottom: 1.5rem;
+    }
+
+    .filter-section:last-child {
+        margin-bottom: 0;
+    }
+
+    .filter-section h3 {
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+        color: #555;
+    }
+
+    .filter-buttons {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        border: 2px solid #667eea;
+        background: white;
+        color: #667eea;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s;
+    }
+
+    .filter-btn:hover {
+        background: #f0f0ff;
+    }
+
+    .filter-btn.active {
+        background: #667eea;
+        color: white;
+    }
+
+    .stats {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .stats h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: #555;
+    }
+
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1rem;
+    }
+
+    .stat-item {
+        text-align: center;
+        padding: 1rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+    }
+
+    .stat-number {
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #667eea;
+        margin-bottom: 0.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    .posts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .post-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    .post-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .post-date {
+        font-size: 0.85rem;
+        color: #999;
+    }
+
+    .post-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+    }
+
+    .post-title a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .post-title a:hover {
+        color: #667eea;
+    }
+
+    .post-excerpt {
+        flex-grow: 1;
+        color: #666;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .read-more {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 500;
+        align-self: flex-start;
+    }
+
+    .read-more:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .stats-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .posts-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const categoryBtns = document.querySelectorAll('[data-filter]');
+        const timeBtns = document.querySelectorAll('[data-time]');
+        const posts = document.querySelectorAll('.post-card');
+
+        let currentCategory = 'all';
+        let currentDays = 'all';
+
+        // 分类筛选
+        categoryBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentCategory = this.dataset.filter;
+                filterPosts();
+            });
+        });
+
+        // 时间筛选
+        timeBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                timeBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentDays = this.dataset.time;
+                filterPosts();
+            });
+        });
+
+        function filterPosts() {
+            const now = new Date();
+            const cutoffDate = currentDays === 'all'
+                ? new Date(0)
+                : new Date(now - currentDays * 24 * 60 * 60 * 1000);
+
+            posts.forEach(post => {
+                const postCategory = post.dataset.category;
+                const postDate = new Date(post.dataset.date);
+                const categoryMatch = currentCategory === 'all' || postCategory === currentCategory;
+                const dateMatch = postDate >= cutoffDate;
+
+                if (categoryMatch && dateMatch) {
+                    post.style.display = 'block';
+                } else {
+                    post.style.display = 'none';
+                }
+            });
+        }
+    });
+</script>
