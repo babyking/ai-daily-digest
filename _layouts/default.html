@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .nav {
+            background: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav a:hover {
+            background: #f0f0ff;
+        }
+
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .post {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post-meta {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .post h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        .post h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 1rem 0;
+            color: #555;
+        }
+
+        .category-tag {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .category-reddit {
+            background: #ff4500;
+            color: white;
+        }
+
+        .category-twitter {
+            background: #1da1f2;
+            color: white;
+        }
+
+        .category-music {
+            background: #9b59b6;
+            color: white;
+        }
+
+        .post-content {
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .post-content a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .post-content a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .nav ul {
+                gap: 1rem;
+            }
+
+            .content {
+                padding: 1.5rem;
+            }
+
+            .post h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="/ai-daily-digest/reddit">Reddit精选</a></li>
+                <li><a href="/ai-daily-digest/twitter">Twitter精选</a></li>
+                <li><a href="/ai-daily-digest/music">音乐技术</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="content">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© {{ site.time | date: '%Y' }} {{ site.title }}. Built with Jekyll & GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
