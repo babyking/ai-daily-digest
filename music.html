@@ -1,0 +1,106 @@
+---
+layout: default
+title: 音乐技术
+permalink: /music/
+---
+
+# 音乐制作技术情报
+
+<div class="posts-grid">
+    {% for post in site.posts %}
+        {% if post.category == 'music' %}
+        <article class="post-card">
+            <div class="post-header">
+                <span class="category-tag category-music">MUSIC</span>
+                <time class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</time>
+            </div>
+
+            <h3 class="post-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+
+            <div class="post-excerpt">
+                {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </div>
+
+            <a href="{{ post.url }}" class="read-more">阅读全文 →</a>
+        </article>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<style>
+    .posts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .post-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    .post-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .post-date {
+        font-size: 0.85rem;
+        color: #999;
+    }
+
+    .post-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+    }
+
+    .post-title a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .post-title a:hover {
+        color: #667eea;
+    }
+
+    .post-excerpt {
+        flex-grow: 1;
+        color: #666;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .read-more {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 500;
+        align-self: flex-start;
+    }
+
+    .read-more:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .posts-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

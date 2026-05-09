@@ -118,6 +118,29 @@ category: {category}
         f.write(front_matter)
         f.write(actual_content)
 
+    # 如果是 Twitter 内容，处理链接
+    if category == "twitter":
+        import sys
+        fix_script = os.path.join(REPO_DIR, "fix-twitter-links.py")
+
+        # 导入处理函数
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("fix_twitter", fix_script)
+        fix_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(fix_module)
+
+        # 读取文件并处理
+        with open(output_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        processed_content = fix_module.process_twitter_links(content)
+
+        # 写回文件
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(processed_content)
+
+        print(f"✅ 已处理 Twitter 链接")
+
     print(f"✅ 已创建文章: {output_filename}")
 
     # Git操作
