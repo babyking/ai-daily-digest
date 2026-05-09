@@ -6,7 +6,7 @@
 1. 在每个列表项之间添加空行（提高可读性）
 2. 在主要部分之间添加空行
 3. 确保段落之间有适当的空行
-4. 保持原有的格式和结构
+4. 支持 •、-、* 等列表符号
 """
 import os
 import re
@@ -17,45 +17,43 @@ def optimize_content(content):
     """
     lines = content.split('\n')
     result = []
+    prev_list_item = False
 
     for i, line in enumerate(lines):
         result.append(line)
 
-        # 在列表项之间添加空行（提高可读性）
-        list_match = re.match(r'^\s*[-*]\s+', line)
+        # 检测各种列表项格式：•、-、*、数字.
+        list_match = re.match(r'^\s*([•\-*])\s+', line)
         numbered_match = re.match(r'^\s*\d+\.\s+', line)
 
         if list_match or numbered_match:
-            # 检查下一个是否也是列表项
-            if i + 1 < len(lines):
-                next_list = re.match(r'^\s*[-*]\s+', lines[i + 1])
-                next_numbered = re.match(r'^\s*\d+\.\s+', lines[i + 1])
+            # 这是一个列表项
+            if prev_list_item and result[-2].strip():  # 上一个也是列表项
+                # 在列表项之间添加空行
+                result.append('')
+            prev_list_item = True
+        else:
+            # 不是列表项，重置标记
+            prev_list_item = False
 
-                # 如果下一个也是列表项，在当前列表项后添加空行
-                if next_list or next_numbered:
-                    result.append('')
-
-        # 在二级标题（##）后添加空行
+        # 在二级标题（##）后添加空行（如果下一行不是标题）
         heading_match = re.match(r'^##\s+', line)
-        if heading_match and i + 1 < len(lines) and lines[i + 1].strip():
-            result.append('')
-
-        # 在四级标题（####）后添加空行（通常是具体的小节）
-        subheading_match = re.match(r'^####\s+', line)
-        if subheading_match and i + 1 < len(lines) and lines[i + 1].strip():
-            result.append('')
+        if heading_match and i + 1 < len(lines):
+            next_heading = re.match(r'^#+\s+', lines[i + 1])
+            if lines[i + 1].strip() and not next_heading:
+                result.append('')
 
     # 移除过多的连续空行（最多保留1个）
     final_result = []
-    prev_empty = False
+    empty_count = 0
     for line in result:
         if line.strip() == '':
-            if not prev_empty:
+            empty_count += 1
+            if empty_count <= 1:
                 final_result.append(line)
-                prev_empty = True
         else:
+            empty_count = 0
             final_result.append(line)
-            prev_empty = False
 
     return '\n'.join(final_result)
 
