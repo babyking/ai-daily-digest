@@ -11,43 +11,43 @@ category: twitter
 
 ## Part A：精选人物（10人）
 
-1. **Anthropic** @anthropicai
+1. **Anthropic** <a href="https://x.com/anthropicai" target="_blank">@anthropicai</a>
    - **推荐理由：** AI安全研究领域的领军企业，专注于对齐研究和Claude大语言模型
    - **评分：** 9/10
 
-2. **Mistral AI** @mistralai
+2. **Mistral AI** <a href="https://x.com/mistralai" target="_blank">@mistralai</a>
    - **推荐理由：** 开源大语言模型先驱，推动AI技术的开放和可及性
    - **评分：** 9/10
 
-3. **DeepMind** @deepmind
+3. **DeepMind** <a href="https://x.com/deepmind" target="_blank">@deepmind</a>
    - **推荐理由：** 世界顶尖AI研究实验室，在强化学习、Alpha系列等方向取得突破性成果
    - **评分：** 9/10
 
-4. **Meta AI** @metaai
+4. **Meta AI** <a href="https://x.com/metaai" target="_blank">@metaai</a>
    - **推荐理由：** Facebook AI Research (FAIR) 分支，在计算机视觉、多模态AI领域有深厚积累
    - **评分：** 8/10
 
-5. **Microsoft AI** @microsoftai
+5. **Microsoft AI** <a href="https://x.com/microsoftai" target="_blank">@microsoftai</a>
    - **推荐理由：** 企业级AI创新领导者，Azure AI和Copilot等产品推动AI在生产力领域的应用
    - **评分：** 8/10
 
-6. **Cohere** @cohereai
+6. **Cohere** <a href="https://x.com/cohereai" target="_blank">@cohereai</a>
    - **推荐理由：** NLP和企业级AI解决方案专家，专注于企业自然语言处理应用
    - **评分：** 8/10
 
-7. **Together AI** @togetherai
+7. **Together AI** <a href="https://x.com/togetherai" target="_blank">@togetherai</a>
    - **推荐理由：** 开源AI基础设施提供商，为开源模型提供推理和训练服务
    - **评分：** 8/10
 
-8. **Perplexity** @perplexityai
+8. **Perplexity** <a href="https://x.com/perplexityai" target="_blank">@perplexityai</a>
    - **推荐理由：** AI搜索和研究的创新者，重新定义信息检索方式
    - **评分：** 8/10
 
-9. **Runway** @runwayml
+9. **Runway** <a href="https://x.com/runwayml" target="_blank">@runwayml</a>
    - **推荐理由：** 创意AI应用领域的领导者，推动视频生成和创意工具的发展
    - **评分：** 8/10
 
-10. **Stability AI** @stabilityai
+10. **Stability AI** <a href="https://x.com/stabilityai" target="_blank">@stabilityai</a>
     - **推荐理由：** 生成式AI先驱，Stable Diffusion等开源模型推动AI艺术创作普及
     - **评分：** 8/10
 

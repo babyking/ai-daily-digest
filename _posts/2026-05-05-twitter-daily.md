@@ -15,34 +15,34 @@ category: twitter
 
 ## Part A：今日 AI 精选人物（10人）
 
-1. **Houyuan Chen** (@houyuanchen)
+1. **Houyuan Chen** (<a href="https://x.com/houyuanchen" target="_blank">@houyuanchen</a>)
    - 推荐理由：UniVidX 论文第一作者，南京大学研究者，专注于视频生成和扩散模型（Hugging Face 提交者）
 
-2. **Anyi Rao** (@anyirao)
+2. **Anyi Rao** (<a href="https://x.com/anyirao" target="_blank">@anyirao</a>)
    - 推荐理由：UniVidX 论文通讯作者，斯坦福大学研究员，多模态 AI 专家
 
-3. **taesiri** (@taesiri)
+3. **taesiri** (<a href="https://x.com/taesiri" target="_blank">@taesiri</a>)
    - 推荐理由：Hugging Face 活跃提交者，分享最新 AI 论文（包括 UniVidX、Map2World 等）
 
-4. **Zhouhc** (@Zhouhc)
+4. **Zhouhc** (<a href="https://x.com/Zhouhc" target="_blank">@Zhouhc</a>)
    - 推荐理由：Hugging Face 论文提交者，分享了 Web2BigTable Multi-Agent 系统
 
-5. **jianlanluo** (@jianlanluo)
+5. **jianlanluo** (<a href="https://x.com/jianlanluo" target="_blank">@jianlanluo</a>)
    - 推荐理由：Hugging Face 论文提交者，分享了强化学习和机器人学习研究
 
-6. **etaisella** (@etaisella)
+6. **etaisella** (<a href="https://x.com/etaisella" target="_blank">@etaisella</a>)
    - 推荐理由：Hugging Face 论文提交者，分享了 3D 形状编辑相关研究（Prox-E）
 
-7. **unknowncloudw** (@unknowncloudw)
+7. **unknowncloudw** (<a href="https://x.com/unknowncloudw" target="_blank">@unknowncloudw</a>)
    - 推荐理由：Hugging Face 论文提交者，分享了 Agent Skills 表示研究
 
-8. **calintz** (@calintz)
+8. **calintz** (<a href="https://x.com/calintz" target="_blank">@calintz</a>)
    - 推荐理由：Hugging Face 论文提交者，分享了 LLM 红队测试研究（Stable-GFlowNet）
 
-9. **avahal** (@avahal)
+9. **avahal** (<a href="https://x.com/avahal" target="_blank">@avahal</a>)
    - 推荐理由：Hugging Face 社区活跃用户，参与 AI 论文讨论和技术分析
 
-10. **Houyuan Chen** (@houyuanchen111)
+10. **Houyuan Chen** (<a href="https://x.com/houyuanchen111" target="_blank">@houyuanchen111</a>)
     - 推荐理由：GitHub 活跃开发者（285 stars），UniVidX 和 LINO_UniPS 项目作者
 
 ## Part B：今日 AI 精选帖子（10条）
@@ -72,4 +72,4 @@ category: twitter
 3. 由于 Twitter/X 登录限制，无法获取真实 Twitter handle，以上 handle 为 Hugging Face/GitHub 用户名
 4. 如需获取 Twitter 内容，建议配置官方 Twitter API 访问权限
 
-**邮件发送状态：** 已通过 mailx 发送到 22462798@qq.com
+**邮件发送状态：** 已通过 mailx 发送到 22462798<a href="https://x.com/qq" target="_blank">@qq</a>.com

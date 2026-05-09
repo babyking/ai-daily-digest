@@ -11,43 +11,43 @@ category: twitter
 
 ## Part A：精选人物（10人）
 
-1. **ServiceNow AI** @ServiceNow-AI
+1. **ServiceNow AI** <a href="https://x.com/ServiceNow" target="_blank">@ServiceNow</a>-AI
    - **推荐理由：** 企业级AI团队，vLLM强化学习最新实践
    - **评分：** 8/10
 
-2. **Benjamin Zhang** @bezzam
+2. **Benjamin Zhang** <a href="https://x.com/bezzam" target="_blank">@bezzam</a>
    - **推荐理由：** ASR语音识别领域专家，维护开源排行榜
    - **评分：** 8/10
 
-3. **NVIDIA** @nvidia
+3. **NVIDIA** <a href="https://x.com/nvidia" target="_blank">@nvidia</a>
    - **推荐理由：** 多模态AI模型Nemotron发布，长上下文突破
    - **评分：** 9/10
 
-4. **Yash Sharma** @ysharma
+4. **Yash Sharma** <a href="https://x.com/ysharma" target="_blank">@ysharma</a>
    - **推荐理由：** OpenAI隐私过滤器实践专家
    - **评分：** 8/10
 
-5. **Freddy Aboulton** @freddyaboulton
+5. **Freddy Aboulton** <a href="https://x.com/freddyaboulton" target="_blank">@freddyaboulton</a>
    - **推荐理由：** Hugging Face AI应用开发专家
    - **评分：** 8/10
 
-6. **Burtenshaw** @burtenshaw
+6. **Burtenshaw** <a href="https://x.com/burtenshaw" target="_blank">@burtenshaw</a>
    - **推荐理由：** DeepSeek-V4百万token上下文分析
    - **评分：** 9/10
 
-7. **Nico Martin** @nico-martin
+7. **Nico Martin** <a href="https://x.com/nico" target="_blank">@nico</a>-martin
    - **推荐理由：** Transformers.js浏览器端AI先锋
    - **评分：** 8/10
 
-8. **TII UAE** @tiiuae
+8. **TII UAE** <a href="https://x.com/tiiuae" target="_blank">@tiiuae</a>
    - **推荐理由：** 阿拉伯语LLM质量评估领导者
    - **评分：** 8/10
 
-9. **Yannick Jernite** @yjernite
+9. **Yannick Jernite** <a href="https://x.com/yjernite" target="_blank">@yjernite</a>
    - **推荐理由：** AI安全与开源社区深度贡献
    - **评分：** 9/10
 
-10. **TheBajajRa** @thebajajra
+10. **TheBajajRa** <a href="https://x.com/thebajajra" target="_blank">@thebajajra</a>
     - **推荐理由：** 电商AI对话环境创新者
     - **评分：** 7/10
 
@@ -107,7 +107,7 @@ category: twitter
    - **评分：** 7/10
    - **理由：** 创新应用，技术落地，商业价值
 
-10. **ibm-granite** @ibm-granite
+10. **ibm-granite** <a href="https://x.com/ibm" target="_blank">@ibm</a>-granite
     - **内容：** Granite 4.1 LLM架构详解：企业级大模型构建的完整方法论
     - **链接：** https://huggingface.co/blog/granite-4-1-llms
     - **评分：** 8/10

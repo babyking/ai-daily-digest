@@ -9,34 +9,34 @@ category: twitter
 
 ## Part A：今日 AI 精选人物 10 人
 
-1. **Harrison Chase** | @hwchase17
+1. **Harrison Chase** | <a href="https://x.com/hwchase17" target="_blank">@hwchase17</a>
    - LangChain 创始人，专注于 Agent 架构与记忆系统设计
 
-2. **Artificial Analysis** | @ArtificialAnlys
+2. **Artificial Analysis** | <a href="https://x.com/ArtificialAnlys" target="_blank">@ArtificialAnlys</a>
    - AI 行业分析平台，发布年度 State of AI 报告，追踪模型评测与趋势
 
-3. **Alastair Moore** | @latticecut
+3. **Alastair Moore** | <a href="https://x.com/latticecut" target="_blank">@latticecut</a>
    - AI 研究者，深度分析前沿 AI 进步的驱动力（算力规模 vs 算法突破）
 
-4. **Jesse Ezell** | @jezell
+4. **Jesse Ezell** | <a href="https://x.com/jezell" target="_blank">@jezell</a>
    - 开源 AI 社区贡献者，发布 SemaClaw 多智能体框架，迈向通用个人 Agent
 
-5. **Karan** | @kmeanskaran
+5. **Karan** | <a href="https://x.com/kmeanskaran" target="_blank">@kmeanskaran</a>
    - AI 代理架构师，深入阐述 Agentic AI 的两大关键转变：工作流设计与记忆系统
 
-6. **alphaXiv** | @askalphaxiv
+6. **alphaXiv** | <a href="https://x.com/askalphaxiv" target="_blank">@askalphaxiv</a>
    - 研究/论文汇总与推广账号，分享多模态、视觉等前沿研究
 
-7. **Helen Yu** | @YuHelenYu
+7. **Helen Yu** | <a href="https://x.com/YuHelenYu" target="_blank">@YuHelenYu</a>
    - AI 战略与企业级编排倡导者，聚焦代理编排与企业治理
 
-8. **Shubham Saboo** | @Saboo_Shubham_
+8. **Shubham Saboo** | <a href="https://x.com/Saboo_Shubham_" target="_blank">@Saboo_Shubham_</a>
    - AI Agent 团队实践者，分享 24/7 自动化智能体团队的构建与落地
 
-9. **TechRxiv** | @TechRxiv_org
+9. **TechRxiv** | <a href="https://x.com/TechRxiv_org" target="_blank">@TechRxiv_org</a>
    - 技术论文聚合平台，传播 AI 领域最新论文与评测
 
-10. **LearnOpenCV** | @LearnOpenCV
+10. **LearnOpenCV** | <a href="https://x.com/LearnOpenCV" target="_blank">@LearnOpenCV</a>
     - 计算机视觉教育与工具分享，涵盖多模态/视觉语言模型教程
 
 ## Part B：今日 AI 精选帖子 10 条
@@ -69,7 +69,7 @@ category: twitter
    链接：https://x.com/Saboo_Shubham_/status/2032333737707651147
    看点：描绘 2026 AI Agent 团队运作场景——研究、内容、工程代理定时任务无缝协作，Cron 作业替代站会。
 
-8. 作者：@MilkRoadAI
+8. 作者：<a href="https://x.com/MilkRoadAI" target="_blank">@MilkRoadAI</a>
    链接：https://x.com/MilkRoadAI/status/2032185075299991917
    看点：聚焦 AI 资讯与行业动态，为产品与应用开发者提供前沿信息。
 

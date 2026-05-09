@@ -8,52 +8,52 @@ category: twitter
 标题：今日 Twitter AI 精选（10人 + 10帖）
 
 【A. 值得关注的10位AI相关账号】
-1) OpenAI / @OpenAI  
+1) OpenAI / <a href="https://x.com/OpenAI" target="_blank">@OpenAI</a>  
 - 身份标签：顶级模型与产品团队（研究+产品）  
 - 推荐理由：过去24小时内连续发布 ChatGPT Images 2.0 相关内容，信息密度高且含技术解释线程。其发布通常直接影响多模态产品路线与开发者生态。  
 - 主页链接：https://x.com/OpenAI
 
-2) Google DeepMind / @GoogleDeepMind  
+2) Google DeepMind / <a href="https://x.com/GoogleDeepMind" target="_blank">@GoogleDeepMind</a>  
 - 身份标签：前沿研究机构（模型、Agent、科学AI）  
 - 推荐理由：近期围绕 Deep Research/Deep Research Max 与 MCP 集成展开，覆盖“可用性+工程接口”两个关键维度。对企业/开发者理解研究代理落地非常有参考价值。  
 - 主页链接：https://x.com/GoogleDeepMind
 
-3) Anthropic / @AnthropicAI  
+3) Anthropic / <a href="https://x.com/AnthropicAI" target="_blank">@AnthropicAI</a>  
 - 身份标签：模型公司（安全与可控AI）  
 - 推荐理由：近期同时释放“算力合作扩张”与“人才计划”信号，属于行业供给侧与组织侧的双重变化。对从业者判断中长期竞争格局有实际意义。  
 - 主页链接：https://x.com/AnthropicAI
 
-4) xAI / @xai  
+4) xAI / <a href="https://x.com/xai" target="_blank">@xai</a>  
 - 身份标签：模型与基础设施团队  
 - 推荐理由：发布节奏快，覆盖语音、图像与平台能力，且常与算力/产品协同信息一起出现。适合跟踪“高性能训练+消费级产品化”的路线。  
 - 主页链接：https://x.com/xai
 
-5) Arena.ai / @arena  
+5) Arena.ai / <a href="https://x.com/arena" target="_blank">@arena</a>  
 - 身份标签：第三方模型评测与基准社区  
 - 推荐理由：其榜单与趋势图能提供跨模型横向比较，弥补厂商自述偏差。对“模型实测表现”与“版本迭代幅度”判断很有价值。  
 - 主页链接：https://x.com/arena
 
-6) Nick Turley / @nickaturley  
+6) Nick Turley / <a href="https://x.com/nickaturley" target="_blank">@nickaturley</a>  
 - 身份标签：产品负责人（ChatGPT 方向）  
 - 推荐理由：转发/评论往往能补充官方帖未写明的产品侧含义。适合快速捕捉“功能上线后的优先级变化与外部反馈”。  
 - 主页链接：https://x.com/nickaturley
 
-7) Peter Gostev / @petergostev  
+7) Peter Gostev / <a href="https://x.com/petergostev" target="_blank">@petergostev</a>  
 - 身份标签：AI 工程实践创作者  
 - 推荐理由：内容偏“可复现工作流”，尤其是图像模型与编码代理协同。对一线工程师做 UI 生成和迭代提效有直接实操价值。  
 - 主页链接：https://x.com/petergostev
 
-8) Google AI / @GoogleAI  
+8) Google AI / <a href="https://x.com/GoogleAI" target="_blank">@GoogleAI</a>  
 - 身份标签：Google AI 产品与开发者发布窗口  
 - 推荐理由：偏产品化与 API 维度，适合追踪开发者可直接调用的新能力。与 DeepMind 的研究导向形成互补。  
 - 主页链接：https://x.com/GoogleAI
 
-9) Mistral AI / @MistralAI  
+9) Mistral AI / <a href="https://x.com/MistralAI" target="_blank">@MistralAI</a>  
 - 身份标签：开源/商用并行的模型公司  
 - 推荐理由：在企业级部署与模型发布上经常给出清晰节奏。适合关注“欧洲AI生态+可部署模型”的进展。  
 - 主页链接：https://x.com/MistralAI
 
-10) Demis Hassabis / @demishassabis  
+10) Demis Hassabis / <a href="https://x.com/demishassabis" target="_blank">@demishassabis</a>  
 - 身份标签：研究领袖（Google DeepMind CEO）  
 - 推荐理由：关键节点常给出战略级判断与方向信号。适合从“研究愿景—产品落地”两端理解行业变化。  
 - 主页链接：https://x.com/demishassabis

@@ -19,7 +19,7 @@ category: twitter
    - `x-daily-ai-curation-fallback`
    - `smtp-python-fallback`
 2. 对多账号进行反复抓取与重试（避免单次抓取抖动）：
-   - `@GoogleAIStudio, @AnthropicAI, @OpenAI, @xai, @GoogleDeepMind, @NVIDIAAI, @perplexity_ai, @AIatMeta, @MistralAI, @huggingface, @claudeai` 等
+   - `<a href="https://x.com/GoogleAIStudio" target="_blank">@GoogleAIStudio</a>, <a href="https://x.com/AnthropicAI" target="_blank">@AnthropicAI</a>, <a href="https://x.com/OpenAI" target="_blank">@OpenAI</a>, <a href="https://x.com/xai" target="_blank">@xai</a>, <a href="https://x.com/GoogleDeepMind" target="_blank">@GoogleDeepMind</a>, <a href="https://x.com/NVIDIAAI" target="_blank">@NVIDIAAI</a>, <a href="https://x.com/perplexity_ai" target="_blank">@perplexity_ai</a>, <a href="https://x.com/AIatMeta" target="_blank">@AIatMeta</a>, <a href="https://x.com/MistralAI" target="_blank">@MistralAI</a>, <a href="https://x.com/huggingface" target="_blank">@huggingface</a>, <a href="https://x.com/claudeai" target="_blank">@claudeai</a>` 等
 3. 已刷新时间锚点用于“近24h”判断：
    - `2026-04-21 09:36:11 CST` / `2026-04-21 01:36:11 UTC`
 4. 已识别并规避若干采集问题：
@@ -62,13 +62,13 @@ category: twitter
 
 ## 账号候选池（已采集）
 已采集并进入候选评估的重点账号包括：  
-`@OpenAI @AnthropicAI @GoogleDeepMind @GoogleAIStudio @xai @NVIDIAAI @perplexity_ai @AIatMeta @huggingface @MistralAI @claudeai @GoogleAI`
+`@OpenAI @AnthropicAI @GoogleDeepMind @GoogleAIStudio @xai @NVIDIAAI @perplexity_ai @AIatMeta @huggingface @MistralAI @claudeai <a href="https://x.com/GoogleAI" target="_blank">@GoogleAI</a>`
 
 ---
 
 ## 未完成项与原因
 - **未输出最终“10人+10帖”正式稿**：当前已有素材，但需要最后一轮去重与排序收口。  
-- **未发送邮件到 22462798@qq.com**：因为本轮到达工具调用上限，尚未执行 SMTP 发送脚本。  
+- **未发送邮件到 22462798<a href="https://x.com/qq" target="_blank">@qq</a>.com**：因为本轮到达工具调用上限，尚未执行 SMTP 发送脚本。  
 
 如果下一轮可继续调用工具，我会直接收口：
 1) 完成最终“10人+10帖”中文成稿；  

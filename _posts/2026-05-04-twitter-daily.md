@@ -16,34 +16,34 @@ category: twitter
 
 ## Part A: 人物清单
 
-1. **Cédric Bourdin** (@c_bourdin)
+1. **Cédric Bourdin** (<a href="https://x.com/c_bourdin" target="_blank">@c_bourdin</a>)
    - 推荐理由: AI Agent 框架开发者，持续贡献开源项目
 
-2. **Erik Bernhardsson** (@erikbern)
+2. **Erik Bernhardsson** (<a href="https://x.com/erikbern" target="_blank">@erikbern</a>)
    - 推荐理由: ML 工程专家，分享实用技术见解
 
-3. **TechyTok** (@techytok)
+3. **TechyTok** (<a href="https://x.com/techytok" target="_blank">@techytok</a>)
    - 推荐理由: AI 技术博主，深入浅出讲解前沿概念
 
-4. **Matthew Berman** (@matthew_berman)
+4. **Matthew Berman** (<a href="https://x.com/matthew_berman" target="_blank">@matthew_berman</a>)
    - 推荐理由: 开源 AI 贡献者，参与多个 LLM 项目
 
-5. **Alex Atallah** (@alexatallah)
+5. **Alex Atallah** (<a href="https://x.com/alexatallah" target="_blank">@alexatallah</a>)
    - 推荐理由: AI 创业者，分享产品与工程经验
 
-6. **Zed Shaw** (@zedshaw)
+6. **Zed Shaw** (<a href="https://x.com/zedshaw" target="_blank">@zedshaw</a>)
    - 推荐理由: 教育者，讨论 AI 与编程教育结合
 
-7. **Jake VanderPlas** (@jakevdp)
+7. **Jake VanderPlas** (<a href="https://x.com/jakevdp" target="_blank">@jakevdp</a>)
    - 推荐理由: Python 科学计算生态，AI 工具链专家
 
-8. **Zack Lipton** (@zackmatic)
+8. **Zack Lipton** (<a href="https://x.com/zackmatic" target="_blank">@zackmatic</a>)
    - 推荐理由: ML 研究者，关注公平性与可解释性
 
-9. **Rachel Thomas** (@racheltho)
+9. **Rachel Thomas** (<a href="https://x.com/racheltho" target="_blank">@racheltho</a>)
    - 推荐理由: fast.ai 创始人，AI 教育先驱
 
-10. **Lukas Biewald** (@lukasbiewald)
+10. **Lukas Biewald** (<a href="https://x.com/lukasbiewald" target="_blank">@lukasbiewald</a>)
     - 推荐理由: Weights & Biases CEO，MLOps 领域专家
 
 ---
@@ -112,4 +112,4 @@ category: twitter
 
 ---
 
-**邮件发送状态**: ⚠️ 系统邮件配置问题，邮件可能未成功发送至 22462798@qq.com。建议配置 SMTP 凭证或修复 Postfix 设置。报告已保存至 `~/.hermes/cron/state/twitter_ai_people_report_20260504.md`
+**邮件发送状态**: ⚠️ 系统邮件配置问题，邮件可能未成功发送至 22462798<a href="https://x.com/qq" target="_blank">@qq</a>.com。建议配置 SMTP 凭证或修复 Postfix 设置。报告已保存至 `~/.hermes/cron/state/twitter_ai_people_report_20260504.md`

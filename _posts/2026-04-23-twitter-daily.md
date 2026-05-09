@@ -12,7 +12,7 @@ category: twitter
 1. **检索与抓取**
    - 已通过浏览器实时抓取多个 AI 相关 X 账号主页与近期帖子（绕过 `web_search` 对 x.com 的 400 问题）。
    - 已抓取并结构化提取（含时间、状态链接、简要内容、互动数据）的主要账号包括：  
-     `@openai @anthropicai @googledeepmind @xai @cursor_ai @perplexity_ai @runwayml @replicate @togethercompute @mistralai @groqinc` 等。
+     `<a href="https://x.com/openai" target="_blank">@openai</a> <a href="https://x.com/anthropicai" target="_blank">@anthropicai</a> <a href="https://x.com/googledeepmind" target="_blank">@googledeepmind</a> <a href="https://x.com/xai" target="_blank">@xai</a> <a href="https://x.com/cursor_ai" target="_blank">@cursor_ai</a> <a href="https://x.com/perplexity_ai" target="_blank">@perplexity_ai</a> <a href="https://x.com/runwayml" target="_blank">@runwayml</a> <a href="https://x.com/replicate" target="_blank">@replicate</a> <a href="https://x.com/togethercompute" target="_blank">@togethercompute</a> <a href="https://x.com/mistralai" target="_blank">@mistralai</a> <a href="https://x.com/groqinc" target="_blank">@groqinc</a>` 等。
 
 2. **历史去重前置**
    - 已确认并创建目录：`~/.hermes/cron/state/`
@@ -87,7 +87,7 @@ category: twitter
 
 - **t4 未完成**：尚未把今日人物真正写入  
   `~/.hermes/cron/state/twitter_ai_people_history.json`  
-- **t5 未完成**：尚未实际发送邮件到 `22462798@qq.com`  
+- **t5 未完成**：尚未实际发送邮件到 `22462798<a href="https://x.com/qq" target="_blank">@qq</a>.com`  
 - 因此“最终审计口径（更新后总数、重复数=0 的落盘证明）”还未做最后一步落地。
 
 ---

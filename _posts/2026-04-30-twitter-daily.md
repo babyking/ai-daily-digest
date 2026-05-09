@@ -19,34 +19,34 @@ category: twitter
 
 ## Part A：今日 AI 精选人物（10人）
 
-1. **Aston Motes** (@astonmotes)
+1. **Aston Motes** (<a href="https://x.com/astonmotes" target="_blank">@astonmotes</a>)
    - 推荐理由：Core Weave 创始人，AI 基础设施领域专家
 
-2. **Chenglei Wang** (@wangchenglei)
+2. **Chenglei Wang** (<a href="https://x.com/wangchenglei" target="_blank">@wangchenglei</a>)
    - 推荐理由：Google DeepMind 研究员，专注于具身智能和机器人学习
 
-3. **Trevor Cai** (@trevorcai)
+3. **Trevor Cai** (<a href="https://x.com/trevorcai" target="_blank">@trevorcai</a>)
    - 推荐理由：Anthropic Claude 团队成员，大模型系统专家
 
-4. **Ben Zhao** (@zhaoben)
+4. **Ben Zhao** (<a href="https://x.com/zhaoben" target="_blank">@zhaoben</a>)
    - 推荐理由：芝加哥大学教授，AI 安全研究前沿专家
 
-5. **Siddhartha Khera** (@sidkhera)
+5. **Siddhartha Khera** (<a href="https://x.com/sidkhera" target="_blank">@sidkhera</a>)
    - 推荐理由：Meta FAIR 研究员，多模态 AI 领域贡献者
 
-6. **Zico Kolter** (@zikolter)
+6. **Zico Kolter** (<a href="https://x.com/zikolter" target="_blank">@zikolter</a>)
    - 推荐理由：Carnegie Mellon 大学教授，AI 安全和验证专家
 
-7. **Sergey Levine** (@sbvlevine)
+7. **Sergey Levine** (<a href="https://x.com/sbvlevine" target="_blank">@sbvlevine</a>)
    - 推荐理由：加州大学伯克利分校教授，强化学习和机器人学习领域权威
 
-8. **Ce Zhang** (@zhangce)
+8. **Ce Zhang** (<a href="https://x.com/zhangce" target="_blank">@zhangce</a>)
    - 推荐理由：ETH Zürich 教授，大规模机器学习平台搭建专家
 
-9. **Ruslan Salakhutdinov** (@rsalakhu)
+9. **Ruslan Salakhutdinov** (<a href="https://x.com/rsalakhu" target="_blank">@rsalakhu</a>)
    - 推荐理由：Apple 前AI研究负责人，深度学习先驱
 
-10. **Gautam Kamath** (@gautamkamath)
+10. **Gautam Kamath** (<a href="https://x.com/gautamkamath" target="_blank">@gautamkamath</a>)
     - 推荐理由：University of Waterloo 教授，机器学习理论基础研究者
 
 ## Part B：今日 AI 精选帖子（10条）

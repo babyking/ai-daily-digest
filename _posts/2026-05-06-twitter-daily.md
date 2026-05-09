@@ -11,49 +11,49 @@ category: twitter
 
 ## Part A：精选人物（10人）
 
-1. **Theo Hourmouzis** @TheoHourmouzis
+1. **Theo Hourmouzis** <a href="https://x.com/TheoHourmouzis" target="_blank">@TheoHourmouzis</a>
    - **推荐理由：** Anthropic 澳大利亚和新西兰总经理，近期宣布悉尼办公室正式开业，拓展亚太市场
    - **评分：** 8/10
 
-2. **SulphurAI** @SulphurAI
+2. **SulphurAI** <a href="https://x.com/SulphurAI" target="_blank">@SulphurAI</a>
    - **推荐理由：** 开源文本到视频模型 Sulphur-2-base 作者，近期发布热门视频生成模型
    - **评分：** 8/10
 
-3. **TenStrip** @TenStrip
+3. **TenStrip** <a href="https://x.com/TenStrip" target="_blank">@TenStrip</a>
    - **推荐理由：** SulphurAI 项目的 i2v 合并贡献者，视频生成领域专家
    - **评分：** 7.5/10
 
-4. **silveroxides** @silveroxides
+4. **silveroxides** <a href="https://x.com/silveroxides" target="_blank">@silveroxides</a>
    - **推荐理由：** SulphurAI 项目贡献者，参与视频生成模型开发
    - **评分：** 7/10
 
-5. **amrrs** @amrrs
+5. **amrrs** <a href="https://x.com/amrrs" target="_blank">@amrrs</a>
    - **推荐理由：** Hacker News 热门贴 "Accelerating Gemma 4" 作者，Google AI 技术分享者
    - **评分：** 7.5/10
 
-6. **warpspin** @warpspin
+6. **warpspin** <a href="https://x.com/warpspin" target="_blank">@warpspin</a>
    - **推荐理由：** Hacker News 热门贴 ".de TLD offline due to DNSSEC?" 作者，网络安全专家
    - **评分：** 7/10
 
-7. **palashawas** @palashawas
+7. **palashawas** <a href="https://x.com/palashawas" target="_blank">@palashawas</a>
    - **推荐理由：** Hacker News 热门贴 "Computer Use is 45x more expensive than structured APIs" 作者
    - **评分：** 7.5/10
 
-8. **blenderob** @blenderob
+8. **blenderob** <a href="https://x.com/blenderob" target="_blank">@blenderob</a>
    - **推荐理由：** Hacker News 热门贴 "Three Inverse Laws of AI" 作者，AI 理论研究者
    - **评分：** 8/10
 
-9. **gmays** @gmays
+9. **gmays** <a href="https://x.com/gmays" target="_blank">@gmays</a>
    - **推荐理由：** Hacker News 热门贴 "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents" 作者
    - **评分：** 7.5/10
 
-10. **Subquadratic** @SubquadraticAI
+10. **Subquadratic** <a href="https://x.com/SubquadraticAI" target="_blank">@SubquadraticAI</a>
     - **推荐理由：** 迈阿密初创公司，声称实现 1000 倍 AI 效率提升的 SubQ 模型
     - **评分：** 8.5/10
 
 ## Part B：精选帖子（10条）
 
-1. **Michael Nuñez** @michaelnunez
+1. **Michael Nuñez** <a href="https://x.com/michaelnunez" target="_blank">@michaelnunez</a>
    - **内容：** 迈阿密初创公司 Subquadratic 声称其 SubQ 模型实现了 1000 倍 AI 效率提升，研究者要求独立验证
    - **链接：** https://venturebeat.com/ai/subquadratic-subq-model-efficiency-claim/
    - **评分：** 8.5/10
@@ -65,7 +65,7 @@ category: twitter
    - **评分：** 8.0/10
    - **理由：** 重大产品更新，新增透明度功能影响深远
 
-3. **Emilia David** @EmiliaDavidAI
+3. **Emilia David** <a href="https://x.com/EmiliaDavidAI" target="_blank">@EmiliaDavidAI</a>
    - **内容：** 美国运通构建 AI 代理系统，允许 AI 代理代表用户在其支付网络内购物和支付
    - **链接：** https://venturebeat.com/ai/amex-agentic-commerce-stack/
    - **评分：** 7.5/10
@@ -77,13 +77,13 @@ category: twitter
    - **评分：** 7.5/10
    - **理由：** 企业 AI 治理重要产品，解决影子 AI 安全问题
 
-5. **Taryn Plumb** @TarynPlumb
+5. **Taryn Plumb** <a href="https://x.com/TarynPlumb" target="_blank">@TarynPlumb</a>
    - **内容：** AI 脚手架层正在崩塌。LlamaIndex CEO 解释什么能够生存 — 95% 的代码现在是 AI 生成的
    - **链接：** https://venturebeat.com/ai/llamaindex-ai-scaffolding-collapsing/
    - **评分：** 8.5/10
    - **理由：** 深度行业洞察，揭示 AI 开发范式的重大转变
 
-6. **Carl Franzen** @CarlFranzen
+6. **Carl Franzen** <a href="https://x.com/CarlFranzen" target="_blank">@CarlFranzen</a>
    - **内容：** xAI 发布 Grok 4.3，价格极具竞争力，同时推出快速强大的语音克隆套件
    - **链接：** https://venturebeat.com/ai/grok-43-voice-cloning-suite/
    - **评分：** 7.5/10
@@ -107,7 +107,7 @@ category: twitter
    - **评分：** 7.5/10
    - **理由：** 多模态 Agent 基础模型的前沿研究分享
 
-10. **Anthropic** @Anthropic
+10. **Anthropic** <a href="https://x.com/Anthropic" target="_blank">@Anthropic</a>
     - **内容：** Agents for financial services and insurance — Anthropic 发布金融服务和保险领域的 AI 代理解决方案
     - **链接：** https://www.anthropic.com/news/agents-for-financial-services
     - **评分：** 8.0/10

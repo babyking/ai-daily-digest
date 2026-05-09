@@ -13,34 +13,34 @@ category: twitter
 
 ## Part A：今日 AI 精选人物（10人）
 
-1. **DeepSeek** (@DeepSeek_AI)
+1. **DeepSeek** (<a href="https://x.com/DeepSeek_AI" target="_blank">@DeepSeek_AI</a>)
    - 刚刚发布DeepSeek-V4，开源了1M上下文长度的先进模型
 
-2. **Nathan Raw** (@nateraw)
+2. **Nathan Raw** (<a href="https://x.com/nateraw" target="_blank">@nateraw</a>)
    - Hugging Face核心开发者，活跃的开源AI工具维护者
 
-3. **Hugging Face** (@huggingface)
+3. **Hugging Face** (<a href="https://x.com/huggingface" target="_blank">@huggingface</a>)
    - AI开源平台领导者，汇聚最新模型和数据集
 
-4. **David Ha** (@hardmaru)
+4. **David Ha** (<a href="https://x.com/hardmaru" target="_blank">@hardmaru</a>)
    - Google DeepMind研究科学家，创造力和生成模型专家
 
-5. **Greg Brockman** (@gdb)
+5. **Greg Brockman** (<a href="https://x.com/gdb" target="_blank">@gdb</a>)
    - OpenAI联合创始人，分享AI前沿动态
 
-6. **Ilya Sutskever** (@ilyasut)
+6. **Ilya Sutskever** (<a href="https://x.com/ilyasut" target="_blank">@ilyasut</a>)
    - 前OpenAI首席科学家，深度学习先驱
 
-7. **Yoav Goldberg** (@yoavgo)
+7. **Yoav Goldberg** (<a href="https://x.com/yoavgo" target="_blank">@yoavgo</a>)
    - NLP领域知名研究者，Allen Institute for AI
 
-8. **Thang Luong** (@lmthang)
+8. **Thang Luong** (<a href="https://x.com/lmthang" target="_blank">@lmthang</a>)
    - Google Research，机器翻译和注意力机制专家
 
-9. **Eric Jang** (@ericjang11)
+9. **Eric Jang** (<a href="https://x.com/ericjang11" target="_blank">@ericjang11</a>)
    - Google Research研究员，强化学习和生成模型专家
 
-10. **Denny Britz** (@dennybritz)
+10. **Denny Britz** (<a href="https://x.com/dennybritz" target="_blank">@dennybritz</a>)
     - 深度学习教育者，分享实用的ML教程和资源
 
 ---

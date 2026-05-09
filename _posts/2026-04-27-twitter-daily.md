@@ -13,34 +13,34 @@ category: twitter
 
 ## Part A：人物清单（今日精选 10 人）
 
-1. **Bartosz Balis** (@bartoszbalis)
+1. **Bartosz Balis** (<a href="https://x.com/bartoszbalis" target="_blank">@bartoszbalis</a>)
    - Agentic AI for science automation researcher
 
-2. **Chee Wei Tan** (@cheeheitann)
+2. **Chee Wei Tan** (<a href="https://x.com/cheeheitann" target="_blank">@cheeheitann</a>)
    - Strategic AI gaming agents expert
 
-3. **Natan Levy** (@NatanLevy)
+3. **Natan Levy** (<a href="https://x.com/NatanLevy" target="_blank">@NatanLevy</a>)
    - AI risk regulation framework researcher
 
-4. **Nathanael Jo** (@nathanaeljo)
+4. **Nathanael Jo** (<a href="https://x.com/nathanaeljo" target="_blank">@nathanaeljo</a>)
    - Alignment research (ICLR 2026)
 
-5. **Anuj Sadani** (@AnujSadani)
+5. **Anuj Sadani** (<a href="https://x.com/AnujSadani" target="_blank">@AnujSadani</a>)
    - Tool attention in agentic workflows
 
-6. **Koshy John** (@koshyn)
+6. **Koshy John** (<a href="https://x.com/koshyn" target="_blank">@koshyn</a>)
    - AI thinking augmentation advocate
 
-7. **Sachit Rafa** (@SachitRafa)
+7. **Sachit Rafa** (<a href="https://x.com/SachitRafa" target="_blank">@SachitRafa</a>)
    - AI memory with biological decay creator
 
-8. **KM Dupree** (@kmdupree)
+8. **KM Dupree** (<a href="https://x.com/kmdupree" target="_blank">@kmdupree</a>)
    - SWE-bench Verified analyst
 
-9. **Don Supreme** (@donsupreme)
+9. **Don Supreme** (<a href="https://x.com/donsupreme" target="_blank">@donsupreme</a>)
    - Global AI compute infrastructure analyst
 
-10. **Alastair Moore** (@alastairmoore)
+10. **Alastair Moore** (<a href="https://x.com/alastairmoore" target="_blank">@alastairmoore</a>)
     - AI trend analysis contributor
 
 ---

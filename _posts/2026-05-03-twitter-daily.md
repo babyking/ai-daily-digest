@@ -13,34 +13,34 @@ category: twitter
 
 ## Part A：人物清单（10 人）
 
-**1. Thomas Wohlfarth** (@thomaswohlfarth)
+**1. Thomas Wohlfarth** (<a href="https://x.com/thomaswohlfarth" target="_blank">@thomaswohlfarth</a>)
 - 推荐理由：SAP AI治理架构师，推动企业级AI部署标准
 
-**2. Kelsey Hightower** (@kelseyhightower)
+**2. Kelsey Hightower** (<a href="https://x.com/kelseyhightower" target="_blank">@kelseyhightower</a>)
 - 推荐理由：DevOps领域领袖，深度关注AI基础设施优化
 
-**3. Shreyas Shetye** (@shreyasshetye)
+**3. Shreyas Shetye** (<a href="https://x.com/shreyasshetye" target="_blank">@shreyasshetye</a>)
 - 推荐理由：Per-token AI计费模式研究者
 
-**4. NVIDIA AI** (@nvidiaai)
+**4. NVIDIA AI** (<a href="https://x.com/nvidiaai" target="_blank">@nvidiaai</a>)
 - 推荐理由：物理AI前沿研究团队
 
-**5. LG Innovation** (@lginnovation)
+**5. LG Innovation** (<a href="https://x.com/lginnovation" target="_blank">@lginnovation</a>)
 - 推荐理由：消费电子与AI融合创新者
 
-**6. AI Regulation Hub** (@regulared)
+**6. AI Regulation Hub** (<a href="https://x.com/regulared" target="_blank">@regulared</a>)
 - 推荐理由：AI agent治理与政策研究
 
-**7. IBM Research** (@ibmresearch)
+**7. IBM Research** (<a href="https://x.com/ibmresearch" target="_blank">@ibmresearch</a>)
 - 推荐理由：企业AI SDLC成本控制专家
 
-**8. Open Source AI** (@opensourcedai)
+**8. Open Source AI** (<a href="https://x.com/opensourcedai" target="_blank">@opensourcedai</a>)
 - 推荐理由：开源AI工具与框架推广者
 
-**9. MLOps Weekly** (@mlopsweekly)
+**9. MLOps Weekly** (<a href="https://x.com/mlopsweekly" target="_blank">@mlopsweekly</a>)
 - 推荐理由：AI基础设施成本优化专家
 
-**10. Enterprise AI** (@enterprisengine)
+**10. Enterprise AI** (<a href="https://x.com/enterprisengine" target="_blank">@enterprisengine</a>)
 - 推荐理由：企业AI部署与治理实践者
 
 ---

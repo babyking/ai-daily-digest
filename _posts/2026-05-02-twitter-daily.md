@@ -16,34 +16,34 @@ category: twitter
 
 ## Part A：今日 AI 精选人物（10 人）
 
-**1. Emilia David** (@EmiliaDavidAI)
+**1. Emilia David** (<a href="https://x.com/EmiliaDavidAI" target="_blank">@EmiliaDavidAI</a>)
 > VentureBeat AI 编辑，专注企业 AI 和 agent 报道
 
-**2. Taryn Plumb** (@TarynPlumb)
+**2. Taryn Plumb** (<a href="https://x.com/TarynPlumb" target="_blank">@TarynPlumb</a>)
 > 科技记者，报道 AI 和软件架构趋势
 
-**3. Carl Franzen** (@CarlFranzen)
+**3. Carl Franzen** (<a href="https://x.com/CarlFranzen" target="_blank">@CarlFranzen</a>)
 > VentureBeat AI 记者，关注 xAI 和开源 AI 动态
 
-**4. Ben Dickson** (@BenDicksonTech)
+**4. Ben Dickson** (<a href="https://x.com/BenDicksonTech" target="_blank">@BenDicksonTech</a>)
 > AI 和科技记者，TechTalks 创始人
 
-**5. Michael Nuñez** (@michaelnunez)
+**5. Michael Nuñez** (<a href="https://x.com/michaelnunez" target="_blank">@michaelnunez</a>)
 > VentureBeat 记者，报道企业级 AI agent 趋势
 
-**6. Peli Grietzer** (@peligr)
+**6. Peli Grietzer** (<a href="https://x.com/peligr" target="_blank">@peligr</a>)
 > The Gradient 作者，研究 AI 哲学和伦理
 
-**7. Toran Bruce** (@tbruce_ai)
+**7. Toran Bruce** (<a href="https://x.com/tbruce_ai" target="_blank">@tbruce_ai</a>)
 > AutoGPT 项目作者，自主 AI agent 先锋
 
-**8. ProfJoeyG** (@ProfJoeyG)
+**8. ProfJoeyG** (<a href="https://x.com/ProfJoeyG" target="_blank">@ProfJoeyG</a>)
 > vLLM 核心贡献者，LLM 服务优化专家
 
-**9. Wei Wang** (@weiwang_trading)
+**9. Wei Wang** (<a href="https://x.com/weiwang_trading" target="_blank">@weiwang_trading</a>)
 > TradingAgents 作者，多 agent 金融交易框架创新者
 
-**10. AK** (@AK_HF)
+**10. AK** (<a href="https://x.com/AK_HF" target="_blank">@AK_HF</a>)
 > Hugging Face 趋势论文负责人，AI 论文聚合者
 
 ---
@@ -122,6 +122,6 @@ category: twitter
 
 **任务完成状态**：
 - ✓ 已发送到当前会话（Telegram）
-- ✓ 已发送邮件到 22462798@qq.com
+- ✓ 已发送邮件到 22462798<a href="https://x.com/qq" target="_blank">@qq</a>.com
 - ✓ 历史记录已更新（80 → 90 人）
 - ✓ 严格去重验证通过

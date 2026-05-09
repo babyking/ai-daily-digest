@@ -16,34 +16,34 @@ category: twitter
 
 ## Part A：今日 AI 精选人物（10人）
 
-1. **Ce Zhang** (@cezhang)
+1. **Ce Zhang** (<a href="https://x.com/cezhang" target="_blank">@cezhang</a>)
    - 推荐理由：ETH Zürich 教授，大规模机器学习平台搭建专家
 
-2. **Gautam Kamath** (@gautamkamath)
+2. **Gautam Kamath** (<a href="https://x.com/gautamkamath" target="_blank">@gautamkamath</a>)
    - 推荐理由：University of Waterloo 教授，机器学习理论基础研究者
 
-3. **Zico Kolter** (@zikolter)
+3. **Zico Kolter** (<a href="https://x.com/zikolter" target="_blank">@zikolter</a>)
    - 推荐理由：Carnegie Mellon 大学教授，AI 安全和验证专家
 
-4. **Margaret Mitchell** (@mmitchell)
+4. **Margaret Mitchell** (<a href="https://x.com/mmitchell" target="_blank">@mmitchell</a>)
    - 推荐理由：Hugging Face 首席伦理科学家，AI 公平性研究先驱
 
-5. **Sasha Rush** (@srush)
+5. **Sasha Rush** (<a href="https://x.com/srush" target="_blank">@srush</a>)
    - 推荐理由：Cornell 大学教授，NLP 和生成式模型研究专家
 
-6. **Trevor Cai** (@trevorcai)
+6. **Trevor Cai** (<a href="https://x.com/trevorcai" target="_blank">@trevorcai</a>)
    - 推荐理由：Anthropic Claude 团队成员，大模型系统专家
 
-7. **Chenglei Wang** (@wangchenglei)
+7. **Chenglei Wang** (<a href="https://x.com/wangchenglei" target="_blank">@wangchenglei</a>)
    - 推荐理由：Google DeepMind 研究员，专注于具身智能和机器人学习
 
-8. **Shreya Shankar** (@shreyashankar)
+8. **Shreya Shankar** (<a href="https://x.com/shreyashankar" target="_blank">@shreyashankar</a>)
    - 推荐理由：UC Berkeley 博士生，数据管理和 AI 系统研究者
 
-9. **Karthik Abinav** (@karthikabinav)
+9. **Karthik Abinav** (<a href="https://x.com/karthikabinav" target="_blank">@karthikabinav</a>)
    - 推荐理由：OpenAI 研究员，多模态学习和视觉语言模型专家
 
-10. **Jason Wei** (@jasonwei19)
+10. **Jason Wei** (<a href="https://x.com/jasonwei19" target="_blank">@jasonwei19</a>)
     - 推荐理由：AI 研究者，涌现能力和大模型微调方法知名研究者
 
 ## Part B：今日 AI 精选帖子（10条）

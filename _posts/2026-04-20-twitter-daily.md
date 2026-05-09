@@ -9,52 +9,52 @@ category: twitter
 
 【A. 值得关注的10位AI相关账号】
 
-1) OpenAI / @OpenAI  
+1) OpenAI / <a href="https://x.com/OpenAI" target="_blank">@OpenAI</a>  
 - 身份标签：基础模型与产品发布团队  
 - 推荐理由：作为通用大模型最重要的发布源之一，账号常第一时间披露模型能力升级与产品路线。其内容通常附带演示、基准或官方博客入口，便于快速验证与二次跟进。  
 - 主页链接：https://x.com/OpenAI  
 
-2) Anthropic / @AnthropicAI  
+2) Anthropic / <a href="https://x.com/AnthropicAI" target="_blank">@AnthropicAI</a>  
 - 身份标签：模型安全与前沿研究机构  
 - 推荐理由：该账号兼顾“模型能力发布”和“对齐/安全研究”，信息密度高。很多帖子可直接跳转论文或技术说明，适合研究与工程双线跟踪。  
 - 主页链接：https://x.com/AnthropicAI  
 
-3) Claude / @claudeai  
+3) Claude / <a href="https://x.com/claudeai" target="_blank">@claudeai</a>  
 - 身份标签：Anthropic 核心产品账号  
 - 推荐理由：面向开发者与产品侧，更新更偏功能可用性与工作流。对“如何把新模型落地到真实任务”有很高参考价值。  
 - 主页链接：https://x.com/claudeai  
 
-4) Google DeepMind / @GoogleDeepMind  
+4) Google DeepMind / <a href="https://x.com/GoogleDeepMind" target="_blank">@GoogleDeepMind</a>  
 - 身份标签：顶级研究机构（模型/机器人/科学AI）  
 - 推荐理由：覆盖从基础研究到机器人、多模态系统的持续进展。帖子常包含研究背景与应用方向，便于判断长期技术趋势。  
 - 主页链接：https://x.com/GoogleDeepMind  
 
-5) Google AI Studio / @GoogleAIStudio  
+5) Google AI Studio / <a href="https://x.com/GoogleAIStudio" target="_blank">@GoogleAIStudio</a>  
 - 身份标签：开发者平台与工程落地入口  
 - 推荐理由：更新节奏快，聚焦“可直接上手”的功能变化（如 TTS、设计生成、开发工作流）。对工程实践和原型迭代非常实用。  
 - 主页链接：https://x.com/GoogleAIStudio  
 
-6) Perplexity / @perplexity_ai  
+6) Perplexity / <a href="https://x.com/perplexity_ai" target="_blank">@perplexity_ai</a>  
 - 身份标签：AI 产品与检索增强应用团队  
 - 推荐理由：经常发布可立即体验的产品能力升级，信息与用户反馈闭环快。对于 Agent + 工具调用 + 桌面集成方向有较强前瞻性。  
 - 主页链接：https://x.com/perplexity_ai  
 
-7) xAI / @xai  
+7) xAI / <a href="https://x.com/xai" target="_blank">@xai</a>  
 - 身份标签：前沿模型公司  
 - 推荐理由：在模型发布、系统能力、基础设施叙事上有较强影响力。适合用来观察“大模型公司产品化节奏与传播策略”。  
 - 主页链接：https://x.com/xai  
 
-8) AI at Meta / @AIatMeta  
+8) AI at Meta / <a href="https://x.com/AIatMeta" target="_blank">@AIatMeta</a>  
 - 身份标签：大型科技公司AI研究与应用团队  
 - 推荐理由：兼具开源研究叙事与产业级应用视角，适合追踪企业级AI演进。账号常提供可验证的技术说明与发布入口。  
 - 主页链接：https://x.com/AIatMeta  
 
-9) Mistral AI / @MistralAI  
+9) Mistral AI / <a href="https://x.com/MistralAI" target="_blank">@MistralAI</a>  
 - 身份标签：欧洲前沿模型创业公司  
 - 推荐理由：在模型能力、产品化与生态合作方面信息集中。是观察“非美系前沿模型路线”与商业化节奏的重要窗口。  
 - 主页链接：https://x.com/MistralAI  
 
-10) Cursor / @cursor_ai  
+10) Cursor / <a href="https://x.com/cursor_ai" target="_blank">@cursor_ai</a>  
 - 身份标签：AI 编程工具团队  
 - 推荐理由：面向开发者效率场景，发布内容高度贴近真实工程流。对于“代理式编程”“IDE内自动化”趋势有直接参考价值。  
 - 主页链接：https://x.com/cursor_ai  
@@ -132,4 +132,4 @@ category: twitter
 - 链接：https://x.com/GoogleDeepMind/status/2044069878781390929  
 - 2-3句中文摘要：这条更新体现了“基础模型能力向机器人执行能力迁移”的工程进展，尤其是空间理解与任务规划。对具身智能、工业自动化和多模态 Agent 团队都值得重点关注。  
 
-（邮件已发送至 22462798@qq.com）
+（邮件已发送至 22462798<a href="https://x.com/qq" target="_blank">@qq</a>.com）

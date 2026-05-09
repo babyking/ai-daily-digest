@@ -9,52 +9,52 @@ category: twitter
 
 【A. 值得关注的10位AI相关账号】
 
-1) OpenAI / @OpenAI  
+1) OpenAI / <a href="https://x.com/OpenAI" target="_blank">@OpenAI</a>  
 - 身份标签：基础模型与产品发布机构  
 - 推荐理由：OpenAI 账号通常第一时间发布模型能力更新与产品路线，且配有官方演示与文档入口。对开发者和产品经理来说，信号密度高、可执行性强。  
 - 主页链接：https://x.com/OpenAI
 
-2) Sam Altman / @sama  
+2) Sam Altman / <a href="https://x.com/sama" target="_blank">@sama</a>  
 - 身份标签：AI公司创始人/行业意见领袖  
 - 推荐理由：虽然发文节奏不固定，但经常释放战略方向和行业判断。适合追踪行业叙事变化与关键决策风向。  
 - 主页链接：https://x.com/sama
 
-3) Anthropic / @AnthropicAI  
+3) Anthropic / <a href="https://x.com/AnthropicAI" target="_blank">@AnthropicAI</a>  
 - 身份标签：模型公司（安全与对齐导向）  
 - 推荐理由：除了产品更新，Anthropic 还频繁发布对齐、可解释性与安全研究进展。内容对研究与工程两端都具参考价值。  
 - 主页链接：https://x.com/AnthropicAI
 
-4) Claude / @claudeai  
+4) Claude / <a href="https://x.com/claudeai" target="_blank">@claudeai</a>  
 - 身份标签：产品账号（应用与能力落地）  
 - 推荐理由：相较公司主账号，@claudeai 更聚焦“可直接使用”的新能力与工作流。适合一线从业者快速判断是否值得接入。  
 - 主页链接：https://x.com/claudeai
 
-5) Google DeepMind / @GoogleDeepMind  
+5) Google DeepMind / <a href="https://x.com/GoogleDeepMind" target="_blank">@GoogleDeepMind</a>  
 - 身份标签：研究机构（前沿模型/科学AI）  
 - 推荐理由：覆盖基础研究到机器人等跨领域进展，信息可信度高。帖子常提供技术背景，便于做二次验证。  
 - 主页链接：https://x.com/GoogleDeepMind
 
-6) Google AI Studio / @GoogleAIStudio  
+6) Google AI Studio / <a href="https://x.com/GoogleAIStudio" target="_blank">@GoogleAIStudio</a>  
 - 身份标签：开发者平台账号  
 - 推荐理由：聚焦 Gemini 在开发者侧的最新 API/功能，更新偏“能马上上手”。对做原型和快速迭代的人非常实用。  
 - 主页链接：https://x.com/GoogleAIStudio
 
-7) xAI / @xai  
+7) xAI / <a href="https://x.com/xai" target="_blank">@xai</a>  
 - 身份标签：模型与多模态产品机构  
 - 推荐理由：近期更新频繁，覆盖语音、图像与推理产品能力。适合观察“模型能力→消费级产品”转化节奏。  
 - 主页链接：https://x.com/xai
 
-8) Perplexity / @perplexity_ai  
+8) Perplexity / <a href="https://x.com/perplexity_ai" target="_blank">@perplexity_ai</a>  
 - 身份标签：AI产品公司（搜索/智能体方向）  
 - 推荐理由：高频发布 agent 化与跨应用编排能力，帖子通常附带明确功能边界。对“AI应用产品化”有直接参考意义。  
 - 主页链接：https://x.com/perplexity_ai
 
-9) Mistral AI / @MistralAI  
+9) Mistral AI / <a href="https://x.com/MistralAI" target="_blank">@MistralAI</a>  
 - 身份标签：基础模型公司（欧洲代表）  
 - 推荐理由：兼顾开源与商业化动态，常有工程实践相关信号。用于平衡观察美系厂商之外的路线选择。  
 - 主页链接：https://x.com/MistralAI
 
-10) Andrej Karpathy / @karpathy  
+10) Andrej Karpathy / <a href="https://x.com/karpathy" target="_blank">@karpathy</a>  
 - 身份标签：AI研究/工程意见领袖  
 - 推荐理由：内容偏方法论与工程哲学，常能提炼长期有效的认知框架。适合技术管理者和高级工程师建立判断基线。  
 - 主页链接：https://x.com/karpathy
@@ -137,4 +137,4 @@ category: twitter
 ---
 
 数据时间：2026-04-19 22:27 CST（抓取与整理时间）  
-邮件发送状态：已发送至 22462798@qq.com（主题：每日Twitter AI精选 - 2026-04-19）
+邮件发送状态：已发送至 22462798<a href="https://x.com/qq" target="_blank">@qq</a>.com（主题：每日Twitter AI精选 - 2026-04-19）
