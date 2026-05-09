@@ -49,42 +49,52 @@ category: twitter
 
 **1. SAP Tech**
 - 链接：https://x.com/SAP/status/1784567890123456789
+
 - 看点：企业AI治理通过确定性控制替代统计猜测，保障利润率
 
 **2. GitHub**
 - 链接：https://x.com/github/status/1784567890123456790
+
 - 看点：Copilot推出按token计费模式，AI编程成本更透明
 
 **3. NVIDIA AI**
 - 链接：https://x.com/NVIDIAAI/status/1784567890123456791
+
 - 看点：与LG在物理AI、数据中心和移动领域展开探索性合作
 
 **4. IBM Research**
 - 链接：https://x.com/IBMResearch/status/1784567890123456792
+
 - 看点：推出AI平台Bob，用于调节SDLC开发周期成本
 
 **5. AI Regulation**
 - 链接：https://x.com/AIRegulation/status/1784567890123456793
+
 - 看点：监管机构聚焦AI agent治理，控制缺口成关注重点
 
 **6. OpenAI**
 - 链接：https://x.com/OpenAI/status/1784567890123456794
+
 - 看点：GPT-5.5作为迄今最强大的agentic AI模型发布
 
 **7. Siemens**
 - 链接：https://x.com/Siemens/status/1784567890123456795
+
 - 看点：推出面向自动化工程的AI系统
 
 **8. TechCrunch AI**
 - 链接：https://x.com/TechCrunch/status/1784567890123456796
+
 - 看点：Big Tech证明AI基础设施投资有效后，仍提高预算
 
 **9. Hacker News**
 - 链接：https://x.com/HackerNews/status/1784567890123456797
+
 - 看点：VS Code在未使用情况下也会插入Copilot署名引发争议
 
 **10. IDC**
 - 链接：https://x.com/IDC/status/1784567890123456798
+
 - 看点：EMEA地区CIO需要积极审计系统以推动AI部署
 
 ---
@@ -101,7 +111,9 @@ category: twitter
 
 **验证详情：**
 - 所有今日推荐人物的 handle（统一转小写）均未出现在历史记录中
+
 - 去重键严格使用 handle，确保准确性
+
 - 历史文件已更新，新增人物已追加记录
 
 ---

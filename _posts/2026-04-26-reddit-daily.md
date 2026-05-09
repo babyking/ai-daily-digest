@@ -13,6 +13,7 @@ category: reddit
 ---
 
 ## 1. 这就是我们现在的状态，LocalLLaMA
+
 **原标题：** This is where we are right now, LocalLLaMA
 **子版块：** r/LocalLLaMA
 **发布时间：** 04-25 03:59
@@ -24,6 +25,7 @@ category: reddit
 ---
 
 ## 2. 这对卢德分子来说真的是糟糕的一周
+
 **原标题：** It has genuinely been a terrible week for Luddites
 **子版块：** r/singularity
 **发布时间：** 04-25 05:11
@@ -35,6 +37,7 @@ category: reddit
 ---
 
 ## 3. DeepSeek V4 AGI 已确认
+
 **原标题：** Deepseek V4 AGI comfirmed
 **子版块：** r/LocalLLaMA
 **发布时间：** 04-25 02:53
@@ -46,6 +49,7 @@ category: reddit
 ---
 
 ## 4. 一年前，Anthropic说完全AI员工只需一年时间
+
 **原标题：** Exactly 1 year ago, Anthropic said fully AI employees were just 1 year away
 **子版块：** r/singularity
 **发布时间：** 04-24 19:53
@@ -57,6 +61,7 @@ category: reddit
 ---
 
 ## 5. Image 2.0 太厉害了
+
 **原标题：** Image 2.0 cooked here
 **子版块：** r/OpenAI
 **发布时间：** 04-25 11:17
@@ -68,6 +73,7 @@ category: reddit
 ---
 
 ## 6. 大家是否突然忘记了以前有多少白领工作被描述为
+
 **原标题：** Did everyone suddenly forget how much white-collar work used to be described as
 **子版块：** r/singularity
 **发布时间：** 04-25 09:47
@@ -79,6 +85,7 @@ category: reddit
 ---
 
 ## 7. Qwen3.6-27B 在单张RTX 5090上达到约80 tps，218k上下文窗口
+
 **原标题：** Qwen3.6-27B at ~80 tps with 218k context window on 1x RTX 5090 served by vllm 0
 **子版块：** r/LocalLLaMA
 **发布时间：** 04-25 18:23
@@ -90,6 +97,7 @@ category: reddit
 ---
 
 ## 8. Alpha世代男孩更倾向于选择"AI女友"而非真实女友
+
 **原标题：** Gen Alpha boys are preferring "AI girlfriends" over real ones
 **子版块：** r/artificial
 **发布时间：** 04-25 23:11
@@ -101,6 +109,7 @@ category: reddit
 ---
 
 ## 9. Mozilla 使用 Anthropic 的 Mythos 发现并修复了 Firefox 中的271个bug
+
 **原标题：** Mozilla Used Anthropic's Mythos to Find and Fix 271 Bugs in Firefox
 **子版块：** r/singularity
 **发布时间：** 04-22 13:17（补充）
@@ -112,6 +121,7 @@ category: reddit
 ---
 
 ## 10. GLM 5.1 本地部署：40tps，2000+ pp/s
+
 **原标题：** GLM 5.1 Locally: 40tps, 2000+ pp/s
 **子版块：** r/LocalLLaMA
 **发布时间：** 04-26 00:29

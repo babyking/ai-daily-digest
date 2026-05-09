@@ -10,6 +10,7 @@ category: music
 🎵 **音乐制作技术情报** | 日期：2026-05-07
 
 ## 基于e-graphs的爵士乐和声库学习研究
+
 **分类：** 和声识别与分析
 **来源：** arXiv.org
 **链接：** https://arxiv.org/abs/2605.04622
@@ -30,6 +31,7 @@ category: music
 ---
 
 ## VocalParse：基于大音频语言模型的统一歌唱转录系统
+
 **分类：** AI音乐生成与音频分析
 **来源：** arXiv.org
 **链接：** https://arxiv.org/abs/2605.04613
@@ -50,6 +52,7 @@ Yukun Chen等人开发的VocalParse代表了歌唱语音转录（SVT）领域的
 ---
 
 ## 流派自适应和弦生成中的流行与爵士混合比率实证研究
+
 **分类：** 和声识别与AI音乐生成
 **来源：** arXiv.org
 **链接：** https://arxiv.org/abs/2605.04998

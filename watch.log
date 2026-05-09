@@ -1,0 +1,33 @@
+🚀 GitHub 自动推送监控脚本启动
+📂 仓库目录: /Users/miguo/Hermes/ai-daily-digest
+⏱️  检查间隔: 300 秒
+📋 监控任务: reddit, twitter, music
+
+按 Ctrl+C 停止脚本
+
+
+============================================================
+🕐 检查时间: 2026-05-09 11:07:23
+============================================================
+
+⏭️  reddit     - 内容为空 (2026-05-09_08-56-45.md)
+📤 twitter    - 开始推送 (2026-05-09_09-05-32.md)
+✅ 推送成功: twitter - 2026-05-09_09-05-32.md
+⏭️  music      - 内容为空 (2026-05-09_09-11-54.md)
+
+✅ 检查完成，共推送 1 个文件
+============================================================
+
+
+============================================================
+🕐 检查时间: 2026-05-09 11:12:23
+============================================================
+
+Traceback (most recent call last):
+  File "/Users/miguo/Hermes/ai-daily-digest/watch-and-push.py", line 213, in <module>
+    main()
+  File "/Users/miguo/Hermes/ai-daily-digest/watch-and-push.py", line 208, in main
+    check_and_push()
+  File "/Users/miguo/Hermes/ai-daily-digest/watch-and-push.py", line 139, in check_and_push
+    if state["last_check"] and file_mtime < state["last_check"]:
+TypeError: '<' not supported between instances of 'datetime.datetime' and 'str'

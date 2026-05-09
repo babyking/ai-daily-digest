@@ -65,6 +65,72 @@ def parse_filename(filename):
         return f"{date_str} {time_str}"
     return None
 
+def optimize_paragraphs(content):
+    """
+    优化内容的段落结构，让长内容更易读
+
+    处理规则：
+    1. 在每个列表项之间添加空行（提高可读性）
+    2. 在主要部分之间添加空行
+    3. 确保段落之间有适当的空行
+    """
+    lines = content.split('\n')
+    result = []
+
+    for i, line in enumerate(lines):
+        result.append(line)
+
+        # 在列表项之间添加空行（提高可读性）
+        list_match = re.match(r'^\s*[-*]\s+', line)
+        numbered_match = re.match(r'^\s*\d+\.\s+', line)
+
+        if list_match or numbered_match:
+            # 检查下一个是否也是列表项
+            if i + 1 < len(lines):
+                next_list = re.match(r'^\s*[-*]\s+', lines[i + 1])
+                next_numbered = re.match(r'^\s*\d+\.\s+', lines[i + 1])
+
+                # 如果下一个也是列表项，在当前列表项后添加空行
+                if next_list or next_numbered:
+                    result.append('')
+
+        # 在二级标题（##）后添加空行
+        heading_match = re.match(r'^##\s+', line)
+        if heading_match and i + 1 < len(lines) and lines[i + 1].strip():
+            result.append('')
+
+        # 在四级标题（####）后添加空行（通常是具体的小节）
+        subheading_match = re.match(r'^####\s+', line)
+        if subheading_match and i + 1 < len(lines) and lines[i + 1].strip():
+            result.append('')
+
+    # 移除过多的连续空行（最多保留1个）
+    final_result = []
+    prev_empty = False
+    for line in result:
+        if line.strip() == '':
+            if not prev_empty:
+                final_result.append(line)
+                prev_empty = True
+        else:
+            final_result.append(line)
+            prev_empty = False
+
+    return '\n'.join(final_result)
+
+def process_twitter_links(content):
+    """
+    将 Twitter 用户名转换为可点击链接
+    """
+    # 匹配 @username 格式（前面不是 / 或已经是链接的一部分）
+    def replace_username(match):
+        username = match.group(1)
+        return f'<a href="https://x.com/{username}" target="_blank">@{username}</a>'
+
+    # 排除已经是链接的情况（如 <a href="...">@username</a>）
+    content = re.sub(r'(?<!href="https://x\.com/)(?<!>)@(\w+)', replace_username, content)
+    return content
+
 def push_to_github(category, content_file):
     """将内容推送到GitHub"""
     # 验证参数
@@ -118,24 +184,24 @@ category: {category}
         f.write(front_matter)
         f.write(actual_content)
 
+    # 优化段落结构
+    with open(output_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    optimized_content = optimize_paragraphs(content)
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(optimized_content)
+
+    print(f"✅ 已优化段落结构")
+
     # 如果是 Twitter 内容，处理链接
     if category == "twitter":
-        import sys
-        fix_script = os.path.join(REPO_DIR, "fix-twitter-links.py")
-
-        # 导入处理函数
-        import importlib.util
-        spec = importlib.util.spec_from_file_location("fix_twitter", fix_script)
-        fix_module = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(fix_module)
-
-        # 读取文件并处理
         with open(output_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        processed_content = fix_module.process_twitter_links(content)
+        processed_content = process_twitter_links(content)
 
-        # 写回文件
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(processed_content)
 
